@@ -42,7 +42,7 @@ var pathtoroot = "../../";loadScripts(document, 'script');</script>
 <div class="topNav"><a name="navbar.top">
 
 </a>
-<div class="skipNav"><a href="#skip.navbar.top" title="Skip navigation links">Skip navigation links</a></div>
+<div class="skipNav"><a href="BanEntry.html#skip.navbar.top" title="Skip navigation links">Skip navigation links</a></div>
 <a name="navbar.top.firstrow">
 
 </a>
@@ -59,11 +59,11 @@ var pathtoroot = "../../";loadScripts(document, 'script');</script>
 </div>
 <div class="subNav">
 <ul class="navList">
-<li><a href="../../org/bukkit/Art.html" title="enum in org.bukkit"><span class="typeNameLink">Prev&nbsp;Class</span></a></li>
-<li><a href="../../org/bukkit/BanList.html" title="interface in org.bukkit"><span class="typeNameLink">Next&nbsp;Class</span></a></li>
+<li><a href="Art.html" title="enum in org.bukkit"><span class="typeNameLink">Prev&nbsp;Class</span></a></li>
+<li><a href="BanList.html" title="interface in org.bukkit"><span class="typeNameLink">Next&nbsp;Class</span></a></li>
 </ul>
 <ul class="navList">
-<li><a href="../../index.html?org/bukkit/BanEntry.html" target="_top">Frames</a></li>
+<li><a href="../../index.html?org%252Fbukkit%252FBanEntry.html" target="_top">Frames</a></li>
 <li><a href="BanEntry.html" target="_top">No&nbsp;Frames</a></li>
 </ul>
 <ul class="navList" id="allclasses_navbar_top">
@@ -96,13 +96,13 @@ var pathtoroot = "../../";loadScripts(document, 'script');</script>
 <li>Nested&nbsp;|&nbsp;</li>
 <li>Field&nbsp;|&nbsp;</li>
 <li>Constr&nbsp;|&nbsp;</li>
-<li><a href="#method.summary">Method</a></li>
+<li><a href="BanEntry.html#method.summary">Method</a></li>
 </ul>
 <ul class="subNavList">
 <li>Detail:&nbsp;</li>
 <li>Field&nbsp;|&nbsp;</li>
 <li>Constr&nbsp;|&nbsp;</li>
-<li><a href="#method.detail">Method</a></li>
+<li><a href="BanEntry.html#method.detail">Method</a></li>
 </ul>
 </div>
 <a name="skip.navbar.top">
@@ -117,7 +117,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </script>
 
 <div class="header">
-<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="../../org/bukkit/package-summary.html">org.bukkit</a></div>
+<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">org.bukkit</a></div>
 <h2 title="Interface BanEntry" class="title">Interface BanEntry</h2>
 </div>
 <div class="contentContainer">
@@ -155,12 +155,12 @@ Ban entries include the following properties:
 </table>
 <p>
 Unsaved information is not automatically written to the implementation's
-ban list, instead, the <a href="../../org/bukkit/BanEntry.html#save--"><code>save()</code></a> method must be called to write the
+ban list, instead, the <a href="BanEntry.html#save--"><code>save()</code></a> method must be called to write the
 changes to the ban list. If this ban entry has expired (such as from an
-unban) and is no longer found in the list, the <a href="../../org/bukkit/BanEntry.html#save--"><code>save()</code></a> call will
+unban) and is no longer found in the list, the <a href="BanEntry.html#save--"><code>save()</code></a> call will
 re-add it to the list, therefore banning the victim specified.
 <p>
-Likewise, changes to the associated <a href="../../org/bukkit/BanList.html" title="interface in org.bukkit"><code>BanList</code></a> or other entries may or
+Likewise, changes to the associated <a href="BanList.html" title="interface in org.bukkit"><code>BanList</code></a> or other entries may or
 may not be reflected in this entry.</div>
 </li>
 </ul>
@@ -183,70 +183,70 @@ may not be reflected in this entry.</div>
 </tr>
 <tr id="i0" class="altColor">
 <td class="colFirst"><code><a href="https://docs.oracle.com/javase/9/docs/api/java/util/Date.html?is-external=true" title="class or interface in java.util">Date</a></code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="../../org/bukkit/BanEntry.html#getCreated--">getCreated</a></span>&#8203;()</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="BanEntry.html#getCreated--">getCreated</a></span>&#8203;()</code></th>
 <td class="colLast">
 <div class="block">Gets the date this ban entry was created.</div>
 </td>
 </tr>
 <tr id="i1" class="rowColor">
 <td class="colFirst"><code><a href="https://docs.oracle.com/javase/9/docs/api/java/util/Date.html?is-external=true" title="class or interface in java.util">Date</a></code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="../../org/bukkit/BanEntry.html#getExpiration--">getExpiration</a></span>&#8203;()</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="BanEntry.html#getExpiration--">getExpiration</a></span>&#8203;()</code></th>
 <td class="colLast">
 <div class="block">Gets the date this ban expires on, or null for no defined end date.</div>
 </td>
 </tr>
 <tr id="i2" class="altColor">
 <td class="colFirst"><code><a href="https://docs.oracle.com/javase/9/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="../../org/bukkit/BanEntry.html#getReason--">getReason</a></span>&#8203;()</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="BanEntry.html#getReason--">getReason</a></span>&#8203;()</code></th>
 <td class="colLast">
 <div class="block">Gets the reason for this ban.</div>
 </td>
 </tr>
 <tr id="i3" class="rowColor">
 <td class="colFirst"><code><a href="https://docs.oracle.com/javase/9/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="../../org/bukkit/BanEntry.html#getSource--">getSource</a></span>&#8203;()</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="BanEntry.html#getSource--">getSource</a></span>&#8203;()</code></th>
 <td class="colLast">
 <div class="block">Gets the source of this ban.</div>
 </td>
 </tr>
 <tr id="i4" class="altColor">
 <td class="colFirst"><code><a href="https://docs.oracle.com/javase/9/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="../../org/bukkit/BanEntry.html#getTarget--">getTarget</a></span>&#8203;()</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="BanEntry.html#getTarget--">getTarget</a></span>&#8203;()</code></th>
 <td class="colLast">
 <div class="block">Gets the target involved.</div>
 </td>
 </tr>
 <tr id="i5" class="rowColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="../../org/bukkit/BanEntry.html#save--">save</a></span>&#8203;()</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="BanEntry.html#save--">save</a></span>&#8203;()</code></th>
 <td class="colLast">
 <div class="block">Saves the ban entry, overwriting any previous data in the ban list.</div>
 </td>
 </tr>
 <tr id="i6" class="altColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="../../org/bukkit/BanEntry.html#setCreated-java.util.Date-">setCreated</a></span>&#8203;(<a href="https://docs.oracle.com/javase/9/docs/api/java/util/Date.html?is-external=true" title="class or interface in java.util">Date</a>&nbsp;created)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="BanEntry.html#setCreated-java.util.Date-">setCreated</a></span>&#8203;(<a href="https://docs.oracle.com/javase/9/docs/api/java/util/Date.html?is-external=true" title="class or interface in java.util">Date</a>&nbsp;created)</code></th>
 <td class="colLast">
 <div class="block">Sets the date this ban entry was created.</div>
 </td>
 </tr>
 <tr id="i7" class="rowColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="../../org/bukkit/BanEntry.html#setExpiration-java.util.Date-">setExpiration</a></span>&#8203;(<a href="https://docs.oracle.com/javase/9/docs/api/java/util/Date.html?is-external=true" title="class or interface in java.util">Date</a>&nbsp;expiration)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="BanEntry.html#setExpiration-java.util.Date-">setExpiration</a></span>&#8203;(<a href="https://docs.oracle.com/javase/9/docs/api/java/util/Date.html?is-external=true" title="class or interface in java.util">Date</a>&nbsp;expiration)</code></th>
 <td class="colLast">
 <div class="block">Sets the date this ban expires on.</div>
 </td>
 </tr>
 <tr id="i8" class="altColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="../../org/bukkit/BanEntry.html#setReason-java.lang.String-">setReason</a></span>&#8203;(<a href="https://docs.oracle.com/javase/9/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;reason)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="BanEntry.html#setReason-java.lang.String-">setReason</a></span>&#8203;(<a href="https://docs.oracle.com/javase/9/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;reason)</code></th>
 <td class="colLast">
 <div class="block">Sets the reason for this ban.</div>
 </td>
 </tr>
 <tr id="i9" class="rowColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="../../org/bukkit/BanEntry.html#setSource-java.lang.String-">setSource</a></span>&#8203;(<a href="https://docs.oracle.com/javase/9/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;source)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="BanEntry.html#setSource-java.lang.String-">setSource</a></span>&#8203;(<a href="https://docs.oracle.com/javase/9/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;source)</code></th>
 <td class="colLast">
 <div class="block">Sets the source of this ban.</div>
 </td>
@@ -307,7 +307,7 @@ name.</div>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>created</code> - the new created date, cannot be null</dd>
 <dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../org/bukkit/BanEntry.html#save--"><code>saving changes</code></a></dd>
+<dd><a href="BanEntry.html#save--"><code>saving changes</code></a></dd>
 </dl>
 </li>
 </ul>
@@ -343,7 +343,7 @@ player name.</div>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>source</code> - the new source where null values become empty strings</dd>
 <dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../org/bukkit/BanEntry.html#save--"><code>saving changes</code></a></dd>
+<dd><a href="BanEntry.html#save--"><code>saving changes</code></a></dd>
 </dl>
 </li>
 </ul>
@@ -375,7 +375,7 @@ player name.</div>
 <dd><code>expiration</code> - the new expiration date, or null to indicate an
 eternity</dd>
 <dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../org/bukkit/BanEntry.html#save--"><code>saving changes</code></a></dd>
+<dd><a href="BanEntry.html#save--"><code>saving changes</code></a></dd>
 </dl>
 </li>
 </ul>
@@ -406,7 +406,7 @@ eternity</dd>
 <dd><code>reason</code> - the new reason, null values assume the implementation
 default</dd>
 <dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../org/bukkit/BanEntry.html#save--"><code>saving changes</code></a></dd>
+<dd><a href="BanEntry.html#save--"><code>saving changes</code></a></dd>
 </dl>
 </li>
 </ul>
@@ -434,7 +434,7 @@ banned once again.</div>
 <div class="bottomNav"><a name="navbar.bottom">
 
 </a>
-<div class="skipNav"><a href="#skip.navbar.bottom" title="Skip navigation links">Skip navigation links</a></div>
+<div class="skipNav"><a href="BanEntry.html#skip.navbar.bottom" title="Skip navigation links">Skip navigation links</a></div>
 <a name="navbar.bottom.firstrow">
 
 </a>
@@ -451,11 +451,11 @@ banned once again.</div>
 </div>
 <div class="subNav">
 <ul class="navList">
-<li><a href="../../org/bukkit/Art.html" title="enum in org.bukkit"><span class="typeNameLink">Prev&nbsp;Class</span></a></li>
-<li><a href="../../org/bukkit/BanList.html" title="interface in org.bukkit"><span class="typeNameLink">Next&nbsp;Class</span></a></li>
+<li><a href="Art.html" title="enum in org.bukkit"><span class="typeNameLink">Prev&nbsp;Class</span></a></li>
+<li><a href="BanList.html" title="interface in org.bukkit"><span class="typeNameLink">Next&nbsp;Class</span></a></li>
 </ul>
 <ul class="navList">
-<li><a href="../../index.html?org/bukkit/BanEntry.html" target="_top">Frames</a></li>
+<li><a href="../../index.html?org%252Fbukkit%252FBanEntry.html" target="_top">Frames</a></li>
 <li><a href="BanEntry.html" target="_top">No&nbsp;Frames</a></li>
 </ul>
 <ul class="navList" id="allclasses_navbar_bottom">
@@ -482,13 +482,13 @@ banned once again.</div>
 <li>Nested&nbsp;|&nbsp;</li>
 <li>Field&nbsp;|&nbsp;</li>
 <li>Constr&nbsp;|&nbsp;</li>
-<li><a href="#method.summary">Method</a></li>
+<li><a href="BanEntry.html#method.summary">Method</a></li>
 </ul>
 <ul class="subNavList">
 <li>Detail:&nbsp;</li>
 <li>Field&nbsp;|&nbsp;</li>
 <li>Constr&nbsp;|&nbsp;</li>
-<li><a href="#method.detail">Method</a></li>
+<li><a href="BanEntry.html#method.detail">Method</a></li>
 </ul>
 </div>
 <a name="skip.navbar.bottom">
